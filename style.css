@@ -1,30 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
 .container {
-  position: relative;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
 }
 
-/* Make the image responsive */
-.container img {
-  width: 100%;
-  height: auto;
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:70px;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
 }
 
-/* Style the button and place it in the middle of the container/image */
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+
+img {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    border: 3px solid #73AD21;
+    padding: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #999;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 5px #666;
 }
 
-.container .btn:hover {
-  background-color: black;
-}
+
+    img:hover {
+        background-color: #b2aaaa;
+    }
+
+    img:active {
+        background-color: #b2aaaa;
+        box-shadow: 0 3px #666;
+        transform: translateY(4px);
+    }
