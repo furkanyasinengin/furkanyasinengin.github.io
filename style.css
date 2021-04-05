@@ -4,50 +4,60 @@ body{
     margin: auto;
 }
 
-.container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-}
+
 
 footer {
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    height:70px;
+    height:35px;
     padding: 1rem;
     background-color: #efefef;
     text-align: center;
 }
 
 
-img {
+
+.linkedin {
     position: absolute;
-    left: 50%;
+    display: block;
+    left: 52%;
     top: 10%;
-    border: 3px solid #73AD21;
-    padding: 5px;
-    font-size: 24px;
+    border: 3px solid #000000;
+    padding: 3px 3px 0 3px;
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #999;
-    border: none;
-    border-radius: 50%;
-    box-shadow: 0 5px #666;
+    border-radius: 10%;
+    box-shadow: 0 4.5px rgba(64,64,64,0.6),0 2px #000000;
 }
 
 
-    img:hover {
-        background-color: #b2aaaa;
-    }
+.github {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    display: block;
+    text-align: center;
+    border: 3px solid #000000;
+    padding: 5px 5px 1px 5px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4.5px rgba(64,64,64,0.6),0 2px #000000;
+}
 
-    img:active {
-        background-color: #b2aaaa;
-        box-shadow: 0 3px #666;
-        transform: translateY(4px);
-    }
+
+
+.linkedin:hover, .github:hover {
+      background-color: purple;
+}
+
+.linkedin:active, .github:active {
+    background-color: #b2aaaa;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
